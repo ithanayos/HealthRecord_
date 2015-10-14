@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:text="@string/aboutme"
         android:id="@+id/button11"
+        android:onClick="clickAboutme"
         android:layout_alignParentBottom="true"
         android:background="#89a4b0"
         android:textColor="#030303"
@@ -96,6 +97,7 @@
             android:layout_width="156dp"
             android:layout_height="132dp"
             android:id="@+id/button20"
+            android:onClick="clickCheckhealth"
             android:background="@drawable/check"
             android:layout_gravity="center_horizontal" />
     </LinearLayout>

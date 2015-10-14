@@ -36,5 +36,13 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(new Intent(this, DiseaseActivity.class));
     }
 
+    public void clickCheckhealth(View view) {
+        startActivity(new Intent(this, CheckhealthActivity.class));
+    }
+
+    public void clickAboutme(View view) {
+        startActivity(new Intent(this, AboutmeActivity.class));
+    }
+
 
 } //Main Class
