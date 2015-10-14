@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                     switch (intTimes) {
 
                         // สำหรับ UserTABLE
-                        // ได้ String 3 ตัวสำหรับใส่ใน DB แล้ว
+                        // ได้ String 8 ตัวสำหรับใส่ใน DB แล้ว
                         case 0:
                         String strUser = object.getString("User");  // User เป็น Key ใน JSON
                         String strPassword = object.getString("Password");
