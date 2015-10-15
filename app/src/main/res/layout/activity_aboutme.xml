@@ -115,6 +115,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
+                android:onClick="clickBackHome"
                 android:id="@+id/button25"
                 android:layout_weight="1" />
 
